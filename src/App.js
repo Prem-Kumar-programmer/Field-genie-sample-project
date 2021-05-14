@@ -35,9 +35,9 @@ export function App() {
 
 
     }
-    function addCompanyInApp(company) {
-        console.log("Company passed to app.js:", company);
-        setCompaniesList([...companiesList, company]);
+    function addCompanyInApp(companies) {
+        console.log("Company passed to app.js:", companies);
+        setCompaniesList([...companiesList, companies]);
     }
 
     return (
