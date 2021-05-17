@@ -24,7 +24,7 @@ export function App() {
     
     function addStudentInApp(student) {
        console.log("student passed to app.js:", student);
-        //setStudentList([...studentsList, student]);
+        setStudentList([...studentsList, student]);
     
        
         // var request = new XMLHttpRequest();

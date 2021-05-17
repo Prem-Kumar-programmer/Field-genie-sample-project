@@ -44,10 +44,10 @@ export function AddStudent({onNewStudent}) {
     // })
 
     
-    var request = new XMLHttpRequest();
-    request.open('POST', 'http://localhost:4000/newstudent/', true);
-    request.setRequestHeader('Content-Type', 'application/json; charset=UTF-8');
-    request.send(newStudent);
+    // var request = new XMLHttpRequest();
+    // request.open('POST', 'http://localhost:4000/newstudent/', true);
+    // request.setRequestHeader('Content-Type', 'application/json; charset=UTF-8');
+    // request.send(newStudent);
 
         
         
